@@ -11,7 +11,7 @@ module.exports = (network) => {
       ClearingHouseConfig: require("./artifacts/ClearingHouseConfig.json"),
       EmergencyPriceFeed: require("./artifacts/EmergencyPriceFeed.json"),
       ERC20Mock: require("./artifacts/ERC20Mock.json"),
-      // LimitOrderBook: require("./artifacts/LimitOrderBook.json"),
+      LimitOrderBook: require("./artifacts/LimitOrderBook.json"),
       // LimitOrderRewardVault: require("./artifacts/LimitOrderRewardVault.json"),
       LiquidityProvider: require("./artifacts/LiquidityProvider.json"),
       MarketTaker: require("./artifacts/MarketTaker.json"),
