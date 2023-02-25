@@ -1,5 +1,7 @@
 module.exports = (network) => {
-  const networkName = network || "arbitrum";
+  const networkName = network;
+
+  if (!network) return "network is empty";
 
   return {
     artifacts: {
