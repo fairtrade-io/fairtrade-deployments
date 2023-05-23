@@ -1,7 +1,7 @@
 {
   "name": "fairtrade-deployments",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [],
   "dependencies": {},
   "devDependencies": {}
