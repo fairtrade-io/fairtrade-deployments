@@ -5,8 +5,8 @@ module.exports = (network) => {
 
   return {
     artifacts: {
-      Amm: require("./artifacts/Amm.json"),
-      AmmFactory: require("./artifacts/AmmFactory.json"),
+      AmmCurve: require("./artifacts/AmmCurve.json"),
+      Factory: require("./artifacts/Factory.json"),
       BaseToken: require("./artifacts/BaseToken.json"),
       ChainlinkPriceFeed: require("./artifacts/ChainlinkPriceFeed.json"),
       ClearingHouse: require("./artifacts/ClearingHouse.json"),
@@ -14,7 +14,7 @@ module.exports = (network) => {
       EmergencyPriceFeed: require("./artifacts/EmergencyPriceFeed.json"),
       ERC20Mock: require("./artifacts/ERC20Mock.json"),
       LimitOrderBook: require("./artifacts/LimitOrderBook.json"),
-      // LimitOrderRewardVault: require("./artifacts/LimitOrderRewardVault.json"),
+      LimitOrderRewardVault: require("./artifacts/LimitOrderRewardVault.json"),
       LiquidityProvider: require("./artifacts/LiquidityProvider.json"),
       MarketTaker: require("./artifacts/MarketTaker.json"),
       Multicall: require("./artifacts/Multicall.json"),
