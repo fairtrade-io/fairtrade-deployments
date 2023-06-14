@@ -110,21 +110,5 @@
       "createdBlockNumber": 25547367,
       "name": "contracts/BaseToken.sol:BaseToken"
     }
-  },
-  "amms": [
-    {
-      "address": "0x161b1127854eb0BdC86bA9cC9Ef45121f89f03b9",
-      "baseAddress": "0xCcB0F3BA700FDEc08739F8F050A2A2E47a0ebd19",
-      "baseSymbol": "BTC",
-      "quoteAddress": "0xf3e55c1557fF8928c10134b82B2DA5Ca79d627b6",
-      "quoteSymbol": "USDC"
-    },
-    {
-      "address": "0x534A4D79E48f8C6382E67EAaC26B6CF5B2D1844c",
-      "baseAddress": "0x7c7f91A7f3838F7a8D4c994EE73a01E2707437Bf",
-      "baseSymbol": "ETH",
-      "quoteAddress": "0xf3e55c1557fF8928c10134b82B2DA5Ca79d627b6",
-      "quoteSymbol": "USDC"
-    }
-  ]
+  }
 }
