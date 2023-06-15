@@ -3,111 +3,111 @@
   "network": "arbitrumGoerli",
   "version": "1.0.0",
   "externalContracts": {
-    "ProxyAdmin": "0x2cd0351866df547495382BFfA795A878A2c10b06",
+    "ProxyAdmin": "0x313FE34BB2b45A8Dd3AdA1174fC63e8ec9A19004",
     "AssetToken": "0x1Ae97969Ad0F3a4311Cd79Fc28481F04e004Dc9b",
-    "Multicall": "0xF3Ce52A06d8652b90e957F99380C39D2c419b96D"
+    "Multicall": "0x53A75A3846479c93b9692f01e391f5C0a619D1d4"
   },
   "contracts": {
-    "AmmCurve": {
-      "createdBlockNumber": 25545927,
-      "logic": "0x02ea5a9d618D9b48Bd1eC0C344e6CcA1C0253d8F",
-      "name": "contracts/AmmCurve.sol:AmmCurve",
-      "proxy": "0x17647621EF49df896Ec91fF99617CC5DcB90dec4"
-    },
     "ClearingHouse": {
-      "createdBlockNumber": 25546158,
-      "logic": "0xacC956232B2381EF52947a6bD842D334FD40516a",
+      "createdBlockNumber": 26083134,
+      "logic": "0xbfa23B05362C035cA1b32F6076f787Ff206df8ec",
       "name": "contracts/ClearingHouse.sol:ClearingHouse",
-      "proxy": "0xfb9138d531D7e21937890E3a0751E1922E74c2A7"
+      "proxy": "0x4E6CAE59ad422330543A0F2d642F344A8ef4097b"
     },
     "ClearingHouseConfig": {
-      "createdBlockNumber": 25545973,
-      "logic": "0x2123989649b485f1bd25428E48cd25040E570Aa8",
+      "createdBlockNumber": 26082965,
+      "logic": "0xa37A0F7bca94d5D38814c77EEf1F35e08408A41e",
       "name": "contracts/ClearingHouseConfig.sol:ClearingHouseConfig",
-      "proxy": "0xafD7138c11893Ab041682C6eD44a2f04ddf672E4"
+      "proxy": "0xd1BDA35C55232aB7bED80A43F3423eEB33655BC0"
     },
     "Factory": {
-      "createdBlockNumber": 25545885,
-      "logic": "0x5019eDAdca28D95259dB3e1D9dB4F8750b979aB2",
+      "createdBlockNumber": 26082878,
+      "logic": "0xDa476AE0aFD8B1bE63D27041307E02B8B09d8E36",
       "name": "contracts/Factory.sol:Factory",
-      "proxy": "0xCa3b9a4ca5EF8e3e0582724633c029c95592705E"
+      "proxy": "0xb10d2C013fc03FA748e497EA1EAcFaE73a8889Ee"
     },
     "FairtradeReader": {
-      "createdBlockNumber": 25546198,
-      "logic": "0xa4B00e718a34a85698997D5bC9ec1b392f8F2511",
+      "createdBlockNumber": 26083163,
+      "logic": "0x7d1922799083CE8bc7A8cAa04a73eC0C564DB0bF",
       "name": "contracts/FairtradeReader.sol:FairtradeReader",
-      "proxy": "0x7aFc127473a93DC808b51a027C50BEfE94AC0403"
+      "proxy": "0xdA5e2cb4d603c850B636D3780b7936648E7Cf828"
     },
     "FairtradeReferrer": {
-      "createdBlockNumber": 25546238,
-      "logic": "0xaF9e994754cd9c842dBc4D9AC0edc16404073A1A",
+      "createdBlockNumber": 26083196,
+      "logic": "0x063205845F8090144dA57b34F937b4b6d718722d",
       "name": "contracts/FairtradeReferrer.sol:FairtradeReferrer",
-      "proxy": "0xCd20EE02BE13378392B0Df5125dDdab390dD85c0"
+      "proxy": "0xA85af64FE93038E622E67f8Cd005AfD81618c647"
     },
     "InsuranceFund": {
-      "createdBlockNumber": 25545817,
-      "logic": "0x0cBd6898f3f76a73bAc2Aae2c5D548eBC9D60Ba4",
+      "createdBlockNumber": 26082819,
+      "logic": "0xEd8c9e3BA4d7E43AeBD100F493f9725a3Ac9844f",
       "name": "contracts/InsuranceFund.sol:InsuranceFund",
-      "proxy": "0xB4f5E46FAc93A872228cE0e7307b7E92cC325979"
+      "proxy": "0xF4B7a429E9059104421585D649270CaA6De0C38D"
     },
     "LimitOrderBook": {
-      "createdBlockNumber": 25546277,
-      "logic": "0x7315160d207d56a64ed9fe9f3ECABB251E45a663",
+      "createdBlockNumber": 26083230,
+      "logic": "0x92aEA4414cEd8BD6386ffc57b7a7a28976002d84",
       "name": "contracts/LimitOrderBook.sol:LimitOrderBook",
-      "proxy": "0x9daa6f74aCcb20eb520242341Ba1bF9736EF8c46"
+      "proxy": "0x30929d02b09B85f3baE72193d533fA227790654C"
     },
     "LiquidityProvider": {
-      "createdBlockNumber": 25546013,
-      "logic": "0x96569cFC4f7550120dBE0a47552EbEbD1d8F0bdf",
+      "createdBlockNumber": 26082998,
+      "logic": "0x0641470839E9EeFf38736Df3950C7ca09Df935bB",
       "name": "contracts/LiquidityProvider.sol:LiquidityProvider",
-      "proxy": "0x15F3d0D7BD8CC1e6f34220167EDF1BeC746d41bb"
+      "proxy": "0x1E98A72aa75353abEF49323b158FA802B6F90d46"
     },
     "MarketTaker": {
-      "createdBlockNumber": 25546084,
-      "logic": "0xaF6c710b15360B57E95eD4477cD5C308CD7654c9",
+      "createdBlockNumber": 26083061,
+      "logic": "0xF60D7c59Ee03c3879bAA8287CE8f3ec3d1fd94CC",
       "name": "contracts/MarketTaker.sol:MarketTaker",
-      "proxy": "0xeB615CD26463f373fc9eEa9BabAA6ed51edE51B6"
+      "proxy": "0x8c4Ac34f5C4eFc07d866608c78b917D4e4808b8E"
     },
     "PositionMgmt": {
-      "createdBlockNumber": 25546042,
-      "logic": "0xbe884A22865883f90DC9C5E8A20416C4687DF4fb",
+      "createdBlockNumber": 26083034,
+      "logic": "0x0Ca24f4F71700A9B55c66f942ABA0714472EE1e9",
       "name": "contracts/PositionMgmt.sol:PositionMgmt",
-      "proxy": "0xBC925113e7189b41634839AF72a51DC911453Ca0"
+      "proxy": "0xD23D9C613E53c65d3f8eCbB7A4ba2059C9d05452"
     },
     "QuoteToken": {
-      "createdBlockNumber": 25545768,
-      "logic": "0xf070E4E0cE05487ed5c8ff354bf53d57BB4d5e50",
+      "createdBlockNumber": 26082776,
+      "logic": "0x5365D79083dfF8f737768c2c6D064a4a74ecFe68",
       "name": "contracts/QuoteToken.sol:QuoteToken",
-      "proxy": "0xf3e55c1557fF8928c10134b82B2DA5Ca79d627b6"
+      "proxy": "0xbFAF9B95498Fb3CA91ECE24bE71AC26A328B0274"
     },
     "Vault": {
-      "createdBlockNumber": 25546131,
-      "logic": "0xAa784A62B80D75FC1704001C363fc96CcD7f9895",
+      "createdBlockNumber": 26083098,
+      "logic": "0xebED8d51DffbfFdBd02E5aE2E009CB9366d07C36",
       "name": "contracts/Vault.sol:Vault",
-      "proxy": "0x70051740dc3a4c61CCe0B1De7cc01d0736629Ef7"
+      "proxy": "0x73123bDE3848c2B5FEF10EB5fF2DFE7436D53df9"
+    },
+    "WrapAmm": {
+      "createdBlockNumber": 26082925,
+      "logic": "0xEeFC1e43B18Dd9C883B3f4B9eE3FbACecf83d667",
+      "name": "contracts/WrapAmm.sol:WrapAmm",
+      "proxy": "0xcA8275168645461772032E4a9d67d88c73e88CF1"
     },
     "BTCUSDCChainlinkPriceFeed": {
-      "logic": "0x142B6B9Bb693989E7CDfd8d8C38ab50736cEBBeE",
-      "proxy": "0xacb2a5c6697815B7D7674021F555422e45B38512",
-      "createdBlockNumber": 25546666,
+      "logic": "0x21fF76871Eef03251951061c474F5A66a3b79D11",
+      "proxy": "0x98D9fe93F87a2C9fb346Bca5cd7D79DA124B9152",
+      "createdBlockNumber": 26083658,
       "name": "contracts/ChainlinkPriceFeed.sol:ChainlinkPriceFeed"
     },
     "vBTC": {
-      "logic": "0x990162Eb22F63cC4b9f4557B433eA8cf08422577",
-      "proxy": "0xCcB0F3BA700FDEc08739F8F050A2A2E47a0ebd19",
-      "createdBlockNumber": 25546713,
+      "logic": "0x9c054b39817fBa818B5e54B56018bF190755229e",
+      "proxy": "0x798F885460B11AefD38B77baA31eAFFC6c27bA93",
+      "createdBlockNumber": 26083680,
       "name": "contracts/BaseToken.sol:BaseToken"
     },
     "ETHUSDCChainlinkPriceFeed": {
-      "logic": "0xb8b384CB2578aE6C6ebe6c6BB89dEBD55b60D910",
-      "proxy": "0x36a610aeAE9970f6086c580E3591334B7236dE25",
-      "createdBlockNumber": 25547319,
+      "logic": "0x7B124515EbBcaff81486e08a7908604187aB2067",
+      "proxy": "0x8d891fd1b0A6AF3cdbaF65b8d55bD5867aeF6951",
+      "createdBlockNumber": 26083715,
       "name": "contracts/ChainlinkPriceFeed.sol:ChainlinkPriceFeed"
     },
     "vETH": {
-      "logic": "0x4d396059AdF494e6c8A241cb57FC557d235aA052",
-      "proxy": "0x7c7f91A7f3838F7a8D4c994EE73a01E2707437Bf",
-      "createdBlockNumber": 25547367,
+      "logic": "0xA24D505F068ADD5E63FDc610866d19F7B57C5eec",
+      "proxy": "0x95FE49a5A7d6C4D03937705766C0488aDaB3604f",
+      "createdBlockNumber": 26083742,
       "name": "contracts/BaseToken.sol:BaseToken"
     }
   }

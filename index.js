@@ -5,7 +5,7 @@ module.exports = (network) => {
 
   return {
     artifacts: {
-      AmmCurve: require("./artifacts/AmmCurve.json"),
+      WrapAmm: require("./artifacts/WrapAmm.json"),
       Factory: require("./artifacts/Factory.json"),
       BaseToken: require("./artifacts/BaseToken.json"),
       ChainlinkPriceFeed: require("./artifacts/ChainlinkPriceFeed.json"),
